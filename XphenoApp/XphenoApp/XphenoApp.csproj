@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.1.0" />
+    <PackageReference Include="Acr.UserDialogs" Version="7.2.0.564" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Model\" />
+    <None Remove="sqlite-net-pcl" />
+    <None Remove="Autofac" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Rg.Plugins.Popup" />
+    <None Remove="DataStore\" />
+    <None Remove="Exceptions\" />
+    <None Remove="SQLRepository\" />
+    <None Remove="SQLRepository\ISQLServices\" />
+    <None Remove="SQLRepository\SQLServices\" />
+    <None Remove="Constants\" />
+    <None Remove="ViewModel\" />
+    <None Remove="Controls\" />
+    <None Remove="IService\" />
+    <None Remove="Service\" />
+    <None Remove="Interface\" />
+    <None Remove="Helpers\" />
+    <None Remove="Views\" />
+    <None Remove="Locale\" />
+    <None Remove="Acr.UserDialogs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="DataStore\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="SQLRepository\" />
+    <Folder Include="SQLRepository\ISQLServices\" />
+    <Folder Include="SQLRepository\SQLServices\" />
+    <Folder Include="Constants\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Controls\" />
+    <Folder Include="IService\" />
+    <Folder Include="Service\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Locale\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Locale\AppResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Locale\AppResource.Designer.cs">
+      <DependentUpon>AppResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

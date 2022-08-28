@@ -1,0 +1,61 @@
+﻿<Properties StartupConfiguration="{6A570E52-F919-4F14-B37D-46337A98EB06}|Default">
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.47c6dcd9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="60" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="84" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="54" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="48" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" line="78" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" line="59" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeViewModel.cs" line="53" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/App.xaml.cs" relfile="XphenoApp/XphenoApp/App.xaml.cs" line="33" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="105" column="1" />
+      <Breakpoint file="/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" relfile="XphenoApp/XphenoApp/ViewModel/EmployeeListViewModel.cs" line="38" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.XphenoApp.Android PreferredExecutionTarget="Android.47c6dcd9" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XphenoApp" expanded="True">
+            <Node name="XphenoApp" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="IService" expanded="True" />
+              <Node name="Locale" expanded="True" />
+              <Node name="Model" expanded="True" />
+              <Node name="Service" expanded="True" />
+              <Node name="SQLRepository" expanded="True">
+                <Node name="ISQLServices" expanded="True" />
+                <Node name="SQLServices" expanded="True" />
+              </Node>
+              <Node name="ViewModel" expanded="True">
+                <Node name="EmployeeViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="EmployeeDetailView.xaml" expanded="True" />
+                <Node name="EmployeeListView.xaml" expanded="True" />
+              </Node>
+              <Node name="Visual" expanded="True" />
+            </Node>
+            <Node name="XphenoApp.Android" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+            </Node>
+            <Node name="XphenoApp.iOS" expanded="True">
+              <Node name="CustomRenderer" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

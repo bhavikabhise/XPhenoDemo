@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XphenoApp.Views.SplashScreen"
+    xmlns:locale="clr-namespace:XphenoApp.Locale">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="SkyBlue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Label Style="{StaticResource SplashLabelStyle}" Text="{Static locale:AppResource.XPheno}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

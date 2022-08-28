@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp.Android/XphenoApp.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp.Android/XphenoApp.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp.Android/XphenoApp.Android.csproj",
+        "projectName": "XphenoApp.Android",
+        "projectPath": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp.Android/XphenoApp.Android.csproj",
+        "packagesPath": "/Users/bhavikabhise/.nuget/packages/",
+        "outputPath": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/bhavikabhise/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid12.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid12.0": {
+            "projectReferences": {
+              "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/XphenoApp.csproj": {
+                "projectPath": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/XphenoApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid12.0": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/XphenoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/XphenoApp.csproj",
+        "projectName": "XphenoApp",
+        "projectPath": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/XphenoApp.csproj",
+        "packagesPath": "/Users/bhavikabhise/.nuget/packages/",
+        "outputPath": "/Users/bhavikabhise/Projects/XPhenoDemo/XphenoApp/XphenoApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bhavikabhise/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2196, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/bhavikabhise/Library/Caches/VisualStudio/17.0/MSBuild/34655_3/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
